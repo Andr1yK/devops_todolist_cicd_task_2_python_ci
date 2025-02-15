@@ -39,6 +39,7 @@ jobs:
 
       - name: Run tests
         run: |
+          cd ../
           pytest
 
       - name: Generate coverage report
